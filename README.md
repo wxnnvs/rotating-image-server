@@ -1,7 +1,7 @@
 # rotating-image-server
 very simple time-based rotating image server using python
 
-## Setup
+## Setup (docker)
 
 ```bash
 git clone https://github.com/wxnnvs/rotating-image-server
