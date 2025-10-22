@@ -1,0 +1,11 @@
+services:
+  rotating-image-server:
+    build: .
+    container_name: rotating-image-server
+    restart: unless-stopped
+    environment:
+      - ROTATION_INTERVAL=86400  # 1 day in seconds
+    volumes:
+      - ./images:/app/images:ro
+    ports:
+      - "6767:6767"
