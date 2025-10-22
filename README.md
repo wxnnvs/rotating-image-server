@@ -3,7 +3,7 @@ very simple time-based rotating image server using python
 
 ## Setup
 
-```
+```bash
 git clone https://github.com/wxnnvs/rotating-image-server
 cd rotating-images-server
 mkdir images
